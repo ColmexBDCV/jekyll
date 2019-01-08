@@ -42,19 +42,21 @@ Con esta lección aprenderás el funcionamiento básico de los sistemas de contr
 
 ## Programa necesario
 
-Actualmente, GitHub Desktop Classic está disponible solamente para Mac. Si utilizas Linux probablemente estarás familiarizado con la línea de comandos y serás capaz de utilizar la versión de línea de comandos de Git. 
+Actualmente, GitHub Desktop Classic está disponible para Windows y Mac: https://desktop.github.com/
 
 ## ¿Qué es un control de versiones y por qué debería utilizarlo? 
 
-Antes de ponerse manos a la obra, conviene comprender qué es un control de versiones y por qué puede ser útil para tu investigación. En términos generales, un control de versiones consiste en tomar instantáneas de tus archivos a lo largo del proceso de creación. La mayoría de personas, de hecho, trabajan con algún sistema de control de versiones para gestionar sus archivos. A menudo, el control tiene lugar guardando distintas versiones de un mismo archivo. Por ejemplo, no es raro encontrarnos ante un directorio que contiene los siguientes archivos:
+Antes de ponerse manos a la obra, conviene comprender qué es un control de versiones y por qué puede ser útil para tu investigación. En términos generales, un control de versiones consiste en "tomar instantáneas" de tus archivos a lo largo del proceso de creación para tener una memoria de los diferentes momentos de la evolución de tu trabajo, lo cual facilita mucho la colaboración pues tus colegas pueden ver todos los cambios que se han hecho. Seguramente tú has hecho algo parecido al control de versiones si tienes un directorio con archivos como estos:
 
 ```
 midocumento.txt
 midocumentoversion2.txt
 midocumentoconrevisiones.txt
 midocumentofinal.txt
+midocumentofinalfinal.txt
+midocumentofinalfinalELBUENO.txt
 ```
-Esta forma de nombrar los archivos puede ser más o menos sistemática. Si añadimos fechas, puede ser un poco más fácil seguir los cambios:
+Este tipo de control puede ser más o menos sistemático, por ejemplo, si añadimos fechas, puede ser un poco más fácil seguir los cambios:
 
 ```
 midocumento2016-01-06.txt
